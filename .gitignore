@@ -1,2 +1,25 @@
+# Virtual Environments (Crucial to ignore)
 .venv/
+env/
+venv/
+
+# VS Code Settings
 .vscode/
+
+# Python Cache Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Datasets and Submissions 
+# (It is a best practice to ignore data files in git repos)
+*.csv
+titanic/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
